@@ -1,5 +1,6 @@
 #EscapeChar \
 #CommentFlag //
+
 wDir = %A_WorkingDir%
 
 //msgbox, 0, A_WorkingDir, %A_WorkingDir%
