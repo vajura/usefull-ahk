@@ -1,11 +1,15 @@
+#NoEnv
 #EscapeChar \
 #CommentFlag //
+SendMode Input
+
 
 concatedString = 
 armourCalulation = 
 endCalculation = false
-armour := 10000
-flaskEffectivness = 1.0
+armour := 11000
+flaskEffectivness = 1.26
+
 while 1
 {
 	Input, userInput, T3 L9 I, {enter}{esc}{tab}a, 1,2,3,4,5,6,7,8,9,0
@@ -35,3 +39,5 @@ else
 }
 clipboard := armourCalulation
 msgbox, 0, Armour calculation , %armourCalulation%, 1.5
+
+ExitApp
